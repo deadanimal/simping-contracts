@@ -1,0 +1,18 @@
+[
+  "constructor(uint256)",
+  "event Created(uint256 indexed,address indexed,address indexed,string,string)",
+  "event Minted(address indexed,address indexed,address indexed,string)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function create(string,string) payable",
+  "function fee() view returns (uint256)",
+  "function getBalance() view returns (uint256)",
+  "function getCollection(uint256) view returns (address, address, string, string)",
+  "function getCollectionCreator(uint256) view returns (address)",
+  "function mint(uint256,address,string) payable",
+  "function newContractOwner(uint256,address)",
+  "function owner() view returns (address)",
+  "function renounceOwnership()",
+  "function setFee(uint256)",
+  "function transferOwnership(address)",
+  "function withdraw(address,uint256)"
+]

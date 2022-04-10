@@ -1,0 +1,9 @@
+[
+  "function downlineCount(address) view returns (uint256)",
+  "function getUplines(address) view returns (address, address, address, address, address)",
+  "function register(address)",
+  "function registered(address) view returns (bool)",
+  "function remove()",
+  "function replace(address)",
+  "function uplineForUser(address) view returns (address)"
+]
