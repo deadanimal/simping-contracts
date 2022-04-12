@@ -15,7 +15,7 @@ yarn run hardhat export-abi
 
 ## Deployed Contracts
 
-1. SimpingToken deployed to: 0xb378605a1A2a30229C91cbb263523E2bD7D28e84
+* SimpingToken deployed to: 0xb378605a1A2a30229C91cbb263523E2bD7D28e84
 * SimpingGovernor deployed to: 0x03673218758039AbC70285d1D7f555CB228937Ad
-* Factory deployed to: 0x2d54c355343c048F00a77A27bc6C40a26B9268Dc
-* Market deployed to: 0x2aC66f5b23776B958e1093bc49Ba9ebf83E85958
+* Factory deployed to: 0xfc18d25A90c83b94d05C3C942cc14508f03346Bb
+* Market deployed to: 0x63C5EC940d262F6cA16983898dD7949EDA3786d1
