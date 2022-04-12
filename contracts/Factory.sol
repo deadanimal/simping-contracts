@@ -91,7 +91,7 @@ contract Factory is Ownable {
     }
 
     function getCollection(uint256 collectionId) public view returns (address alamat, address creator, string memory name, string memory symbol) {
-        Collection storage collection = collections[collectionId];  
+        Collection memory collection = collections[collectionId];  
         alamat = collection.alamat;
         creator = collection.creator;
         name = collection.name;
@@ -99,7 +99,7 @@ contract Factory is Ownable {
     }
 
     function getCollectionCreator(uint256 collectionId) public view returns (address creator) {
-        Collection storage collection = collections[collectionId];  
+        Collection memory collection = collections[collectionId];  
         creator = collection.creator;
     }    
 
